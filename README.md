@@ -26,7 +26,7 @@ This assignment is broken down into the following tasks:
 * Submit your final analysis.
 
 ### Prepare the Data
-1. Run the provided package dependency and data imports, and then merge the mouse_metadata and study_results DataFrames into a single DataFrame.
+1. Run the provided package dependency and data imports, and then merge the `mouse_metadata` and `study_results` DataFrames into a single DataFrame.
 
 2. Display the number of unique mice IDs in the data, and then check for any mouse ID with duplicate time points. Display the data associated with that mouse ID, and then create a new DataFrame where this data is removed. Use this cleaned DataFrame for the remaining steps.
 
@@ -44,15 +44,15 @@ Your summary statistics should include:
 ### Create Bar Charts and Pie Charts
 1. Generate two bar charts. Both charts should be identical and show the total number of time points for all mice tested for each drug regimen throughout the study.
 
-   * Create the first bar chart with the Pandas DataFrame.plot() method.
+   * Create the first bar chart with the Pandas `DataFrame.plot()` method.
 
-   * Create the second bar chart with Matplotlib's pyplot methods.
+   * Create the second bar chart with Matplotlib's `pyplot` methods.
 
 2. Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
 
-   * Create the first pie chart with the Pandas DataFrame.plot() method.
+   * Create the first pie chart with the Pandas `DataFrame.plot()` method.
 
-   * Create the second pie chart with Matplotlib's pyplot mthods.
+   * Create the second pie chart with Matplotlib's `pyplot` mthods.
 
 ### Calculate Quartiles, Find Outliers, and Create a Box Plot 
 1. Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
@@ -75,4 +75,4 @@ Your summary statistics should include:
 ### Calculate Correlation and Regression
 1. Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment.
 
-2. Plot the linear regression model on top of the previous scatter `plot`.
+2. Plot the linear regression model on top of the previous scatter plot.
